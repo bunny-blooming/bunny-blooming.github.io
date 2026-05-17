@@ -7,85 +7,112 @@
       name="description"
       content="서울시 구로구 신도림동 국공립 해피벨 어린이집 소개 페이지입니다."
     />
-    <meta name="theme-color" content="#fff7df" />
-    <title>해피벨 어린이집 | 국공립어린이집</title>
+    <meta name="theme-color" content="#fff6da" />
+    <title>해피벨 어린이집 | 신도림동 국공립어린이집</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="daycare.css" />
   </head>
   <body>
-    <header class="daycare-header">
-      <nav class="daycare-nav" aria-label="해피벨 어린이집 메뉴">
+    <header class="site-header">
+      <nav class="nav" aria-label="해피벨 어린이집 메뉴">
         <a class="brand" href="#top" aria-label="해피벨 어린이집 홈">
-          <span class="brand-mark" aria-hidden="true">HB</span>
+          <span class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32">
+              <path d="M9 15.5c0-5 2.8-8.5 7-8.5s7 3.5 7 8.5v3.2l2.2 3.7H6.8L9 18.7v-3.2Z" />
+              <path d="M13.5 24.1a2.7 2.7 0 0 0 5 0" />
+              <path d="M16 4.5v2.2" />
+            </svg>
+          </span>
           <span>해피벨 어린이집</span>
         </a>
         <div class="nav-links">
-          <a href="#about">소개</a>
           <a href="#classes">반 안내</a>
+          <a href="#care">보육 이야기</a>
           <a href="#day">하루 일과</a>
           <a href="#contact">상담</a>
         </div>
-        <a class="nav-button" href="#contact">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M4 6h16v12H4z" />
-            <path d="m4 7 8 6 8-6" />
-          </svg>
-          입소 상담
-        </a>
+        <a class="nav-cta" href="#contact">입소 상담</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="heroTitle">
         <div class="hero-copy">
-          <p class="eyebrow">국공립어린이집 · 서울시 구로구 신도림동</p>
-          <h1 id="heroTitle">아이의 하루가 반짝이는 해피벨 어린이집</h1>
+          <p class="eyebrow">서울시 구로구 신도림동 · 국공립어린이집</p>
+          <h1 id="heroTitle">작은 아이들의 하루를 포근하게 안아주는 곳</h1>
           <p>
-            해피벨 어린이집은 만 0세부터 만 2세까지의 영아가 안정적으로 적응하고,
-            놀이 속에서 자라날 수 있도록 따뜻한 일상과 세심한 보육을 준비합니다.
+            해피벨 어린이집은 만 0세, 만 1세, 만 2세 영아들이 편안하게 적응하고
+            매일 조금씩 자라나는 시간을 소중히 돌봅니다.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#classes">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 19V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2Z" />
-                <path d="M8 7h6M8 11h6" />
-              </svg>
-              반 구성 보기
-            </a>
-            <a class="button button-secondary" href="#contact">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0Z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              위치 확인
-            </a>
+            <a class="button button-primary" href="#classes">우리 반 보기</a>
+            <a class="button button-secondary" href="#contact">위치와 상담</a>
           </div>
         </div>
-        <div class="hero-card" aria-label="어린이집 요약">
-          <img
-            src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1000&q=80"
-            alt="아이들이 사용하는 알록달록한 놀이 블록"
-          />
-          <div class="hero-note">
-            <strong>영아 중심 보육</strong>
-            <span>안정적인 애착, 안전한 놀이, 규칙적인 생활 리듬</span>
-          </div>
+
+        <div class="hero-illustration" aria-label="해피벨 어린이집 일러스트">
+          <svg viewBox="0 0 620 520" role="img">
+            <title>해피벨 어린이집의 귀여운 교실 일러스트</title>
+            <rect class="room-floor" x="70" y="350" width="480" height="82" rx="28" />
+            <path class="window" d="M390 74h104c20 0 36 16 36 36v116H354V110c0-20 16-36 36-36Z" />
+            <path class="curtain" d="M354 110c32 28 53 67 53 116h-53V110Z" />
+            <path class="curtain" d="M530 110c-32 28-53 67-53 116h53V110Z" />
+            <circle class="sun" cx="442" cy="146" r="35" />
+            <path class="cloud" d="M414 199h86c11 0 20-9 20-20s-9-20-20-20h-7c-6-20-24-34-46-34-24 0-43 16-48 38-12 1-22 11-22 24 0 7 3 12 8 16 7-3 16-4 29-4Z" />
+
+            <path class="house" d="M114 206 252 104l138 102v190H114V206Z" />
+            <path class="roof" d="M82 218 252 90l170 128" />
+            <rect class="door" x="220" y="284" width="64" height="112" rx="24" />
+            <circle class="door-dot" cx="270" cy="340" r="5" />
+            <rect class="class-window" x="148" y="244" width="54" height="54" rx="16" />
+            <rect class="class-window" x="302" y="244" width="54" height="54" rx="16" />
+            <path class="bell" d="M231 178c0-15 9-25 21-25s21 10 21 25v12l9 15h-60l9-15v-12Z" />
+            <path class="bell-line" d="M244 209a9 9 0 0 0 16 0" />
+
+            <g class="baby baby-one">
+              <circle class="face" cx="156" cy="352" r="34" />
+              <path class="hair" d="M141 326c7-16 35-15 44 1" />
+              <circle class="cheek" cx="142" cy="359" r="6" />
+              <circle class="cheek" cx="171" cy="359" r="6" />
+              <path class="smile" d="M147 368c6 7 15 7 21 0" />
+              <circle class="eye" cx="145" cy="349" r="3" />
+              <circle class="eye" cx="169" cy="349" r="3" />
+              <path class="body" d="M122 419c5-30 22-46 34-46s29 16 34 46H122Z" />
+            </g>
+
+            <g class="baby baby-two">
+              <circle class="face" cx="394" cy="352" r="34" />
+              <path class="hair" d="M379 326c7-16 35-15 44 1" />
+              <circle class="cheek" cx="380" cy="359" r="6" />
+              <circle class="cheek" cx="409" cy="359" r="6" />
+              <path class="smile" d="M385 368c6 7 15 7 21 0" />
+              <circle class="eye" cx="383" cy="349" r="3" />
+              <circle class="eye" cx="407" cy="349" r="3" />
+              <path class="body" d="M360 419c5-30 22-46 34-46s29 16 34 46H360Z" />
+            </g>
+
+            <rect class="block block-a" x="452" y="335" width="42" height="42" rx="10" />
+            <rect class="block block-b" x="496" y="376" width="42" height="42" rx="10" />
+            <rect class="block block-c" x="72" y="372" width="42" height="42" rx="10" />
+            <path class="star" d="m503 272 9 18 20 3-15 14 4 20-18-9-18 9 4-20-15-14 20-3 9-18Z" />
+            <path class="moon" d="M94 138c24 4 42 25 42 50 0 27-21 50-48 51 13-11 21-28 21-47 0-22-11-42-15-54Z" />
+          </svg>
         </div>
       </section>
 
-      <section class="quick-band" aria-label="어린이집 핵심 정보">
+      <section class="info-strip" aria-label="해피벨 어린이집 기본 정보">
         <div>
-          <span>운영 유형</span>
+          <span>어린이집 유형</span>
           <strong>국공립어린이집</strong>
         </div>
         <div>
-          <span>대상 연령</span>
-          <strong>만 0세-2세</strong>
+          <span>보육 연령</span>
+          <strong>만 0세-만 2세</strong>
         </div>
         <div>
           <span>위치</span>
@@ -93,123 +120,120 @@
         </div>
       </section>
 
-      <section class="section-shell about-section" id="about" aria-labelledby="aboutTitle">
+      <section class="section-shell classes-section" id="classes" aria-labelledby="classesTitle">
         <div class="section-heading">
-          <p class="eyebrow">About Happy Bell</p>
-          <h2 id="aboutTitle">작은 변화도 놓치지 않는 따뜻한 보육</h2>
+          <p class="eyebrow">우리 반을 소개해요</p>
+          <h2 id="classesTitle">아이의 발달에 맞춘 세 개의 반</h2>
         </div>
-        <div class="about-grid">
-          <p>
-            영아기는 먹고, 자고, 놀고, 관계 맺는 일상이 곧 배움입니다.
-            해피벨 어린이집은 아이의 속도에 맞춘 적응과 놀이를 중요하게 생각하며,
-            가정과 어린이집이 함께 아이의 하루를 살피는 보육 환경을 지향합니다.
-          </p>
-          <div class="care-list">
-            <div>
-              <strong>안전한 환경</strong>
-              <span>영아 눈높이에 맞춘 공간과 생활 동선</span>
+        <div class="class-grid">
+          <article class="class-card sun-card">
+            <div class="class-picture" aria-hidden="true">
+              <svg viewBox="0 0 160 130">
+                <circle class="pic-sun" cx="76" cy="52" r="28" />
+                <path class="pic-moon" d="M105 31c16 4 28 18 28 35 0 19-15 35-34 36 8-8 13-20 13-32 0-15-7-29-7-39Z" />
+                <path class="pic-cloud" d="M39 94h84c9 0 16-7 16-16s-7-16-16-16h-7c-5-15-19-26-36-26-19 0-34 12-38 29-12 1-22 11-22 23 0 3 1 5 2 7 4-1 9-1 17-1Z" />
+              </svg>
             </div>
-            <div>
-              <strong>놀이 중심</strong>
-              <span>감각, 언어, 신체 발달을 돕는 일상 놀이</span>
+            <p>만 0세</p>
+            <h3>햇님달님반</h3>
+            <span>먹고 자고 안기는 시간이 안정되도록, 선생님과 천천히 친해져요.</span>
+          </article>
+          <article class="class-card sea-card">
+            <div class="class-picture" aria-hidden="true">
+              <svg viewBox="0 0 160 130">
+                <path class="pic-sky" d="M25 62c18-22 47-34 74-26 20 6 35 21 41 40H25V62Z" />
+                <path class="pic-wave" d="M18 91c14-12 28-12 42 0s28 12 42 0 28-12 42 0v23H18V91Z" />
+                <circle class="pic-ball" cx="82" cy="58" r="18" />
+              </svg>
             </div>
-            <div>
-              <strong>가정 연계</strong>
-              <span>아이의 컨디션과 적응 과정을 함께 공유</span>
+            <p>만 1세</p>
+            <h3>하늘바다반</h3>
+            <span>걷고 만지고 표현하는 즐거움을 신체 놀이와 감각 놀이로 넓혀가요.</span>
+          </article>
+          <article class="class-card space-card">
+            <div class="class-picture" aria-hidden="true">
+              <svg viewBox="0 0 160 130">
+                <path class="pic-planet" d="M82 30c24 0 43 19 43 43s-19 43-43 43-43-19-43-43 19-43 43-43Z" />
+                <path class="pic-ring" d="M27 85c16-16 52-28 91-24 20 2 33 8 35 16 2 11-22 19-56 20-31 1-60-4-70-12Z" />
+                <path class="pic-star" d="m40 25 5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2 5-10Z" />
+              </svg>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="classes-section" id="classes" aria-labelledby="classesTitle">
-        <div class="section-shell">
-          <div class="section-heading center">
-            <p class="eyebrow">Class Guide</p>
-            <h2 id="classesTitle">연령별 반 구성</h2>
-          </div>
-          <div class="class-grid">
-            <article class="class-card sun">
-              <div class="class-icon" aria-hidden="true">0</div>
-              <p class="card-label">만 0세</p>
-              <h3>햇님달님반</h3>
-              <p>안정적인 애착과 기본 생활 리듬을 중심으로 천천히 어린이집 생활에 적응합니다.</p>
-            </article>
-            <article class="class-card sea">
-              <div class="class-icon" aria-hidden="true">1</div>
-              <p class="card-label">만 1세</p>
-              <h3>하늘바다반</h3>
-              <p>움직임과 표현이 넓어지는 시기에 맞춰 신체 놀이와 언어 자극을 풍부하게 제공합니다.</p>
-            </article>
-            <article class="class-card space">
-              <div class="class-icon" aria-hidden="true">2</div>
-              <p class="card-label">만 2세</p>
-              <h3>우주반</h3>
-              <p>호기심과 자율성을 존중하며 친구와 함께 놀이하는 경험을 넓혀갑니다.</p>
-            </article>
-          </div>
+            <p>만 2세</p>
+            <h3>우주반</h3>
+            <span>호기심이 커지는 시기, 친구와 함께 놀이하며 말과 마음을 키워요.</span>
+          </article>
         </div>
       </section>
 
-      <section class="photo-section" aria-label="어린이집 분위기 사진">
-        <figure class="photo-main">
-          <img
-            src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1300&q=80"
-            alt="밝은 교실에 놓인 책상과 의자"
-          />
-          <figcaption>밝고 정돈된 교실에서 시작하는 하루</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=900&q=80"
-            alt="놀이 활동을 하는 아이"
-          />
-          <figcaption>놀이 속에서 자라는 호기심</figcaption>
-        </figure>
+      <section class="care-section" id="care" aria-labelledby="careTitle">
+        <div class="section-shell care-layout">
+          <div class="section-heading">
+            <p class="eyebrow">해피벨의 보육 이야기</p>
+            <h2 id="careTitle">영아에게 필요한 것은 큰 자극보다 편안한 반복이에요</h2>
+            <p>
+              만 0세부터 만 2세까지의 아이들은 익숙한 선생님, 예측 가능한 하루,
+              따뜻한 스킨십과 말 걸기 속에서 가장 편안하게 자랍니다.
+            </p>
+          </div>
+          <div class="care-cards">
+            <article>
+              <span class="mini-icon">1</span>
+              <h3>천천히 적응해요</h3>
+              <p>처음 등원하는 아이의 속도에 맞춰 분리와 적응 시간을 세심하게 살펴요.</p>
+            </article>
+            <article>
+              <span class="mini-icon">2</span>
+              <h3>놀이로 배워요</h3>
+              <p>손으로 만지고 몸으로 움직이는 일상 놀이를 통해 감각과 언어가 자라요.</p>
+            </article>
+            <article>
+              <span class="mini-icon">3</span>
+              <h3>부모님과 나눠요</h3>
+              <p>먹기, 잠, 기분, 놀이 모습을 함께 공유하며 가정과 어린이집이 이어져요.</p>
+            </article>
+          </div>
+        </div>
       </section>
 
       <section class="day-section" id="day" aria-labelledby="dayTitle">
-        <div class="section-shell day-layout">
-          <div>
-            <p class="eyebrow">Daily Rhythm</p>
-            <h2 id="dayTitle">아이들이 편안하게 예측할 수 있는 하루</h2>
-            <p class="day-copy">
-              연령과 컨디션에 맞춰 세부 시간은 조정될 수 있지만, 아이가 안심할 수 있도록
-              등원, 놀이, 식사, 낮잠, 하원 흐름을 규칙적으로 운영합니다.
-            </p>
+        <div class="section-shell">
+          <div class="section-heading center">
+            <p class="eyebrow">하루 일과</p>
+            <h2 id="dayTitle">아이들이 안심하는 부드러운 하루 흐름</h2>
           </div>
-          <ol class="timeline">
-            <li>
-              <time>오전</time>
-              <strong>등원과 건강 확인</strong>
-              <span>아이의 기분, 수면, 식사 상태를 살핍니다.</span>
-            </li>
-            <li>
-              <time>놀이</time>
-              <strong>실내외 자유 놀이</strong>
-              <span>감각, 신체, 언어 놀이를 자연스럽게 경험합니다.</span>
-            </li>
-            <li>
-              <time>낮잠</time>
-              <strong>휴식과 생활 리듬</strong>
-              <span>연령별 필요에 맞춰 충분히 쉬어갑니다.</span>
-            </li>
-            <li>
-              <time>오후</time>
-              <strong>하원 준비</strong>
-              <span>하루의 컨디션과 놀이 내용을 가정과 나눕니다.</span>
-            </li>
-          </ol>
+          <div class="day-grid">
+            <div>
+              <span>등원</span>
+              <strong>안아주고 살피기</strong>
+              <p>컨디션과 기분을 확인하며 하루를 시작해요.</p>
+            </div>
+            <div>
+              <span>놀이</span>
+              <strong>감각 놀이와 신체 놀이</strong>
+              <p>연령에 맞는 놀잇감으로 즐겁게 탐색해요.</p>
+            </div>
+            <div>
+              <span>식사와 낮잠</span>
+              <strong>편안한 생활 리듬</strong>
+              <p>먹고 쉬는 시간을 안정적으로 이어가요.</p>
+            </div>
+            <div>
+              <span>하원</span>
+              <strong>오늘의 이야기 나누기</strong>
+              <p>아이의 하루를 부모님께 따뜻하게 전해요.</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="contact-section" id="contact" aria-labelledby="contactTitle">
-        <div class="section-shell contact-layout">
+        <div class="section-shell contact-box">
           <div>
-            <p class="eyebrow">Location & Contact</p>
-            <h2 id="contactTitle">서울시 구로구 신도림동에서 만나요</h2>
+            <p class="eyebrow">상담 안내</p>
+            <h2 id="contactTitle">해피벨 어린이집은 신도림동에 있어요</h2>
             <p>
-              입소 상담, 반 구성, 적응 기간에 대한 문의는 아래 버튼을 통해 남겨주세요.
-              실제 운영 정보와 모집 일정은 어린이집 안내에 맞춰 업데이트할 수 있습니다.
+              입소 상담, 반 구성, 적응 기간이 궁금하시다면 문의를 남겨주세요.
+              실제 모집 일정과 운영 안내는 어린이집 사정에 맞게 바꿔 사용할 수 있습니다.
             </p>
           </div>
           <div class="contact-card">
@@ -228,10 +252,6 @@
               </div>
             </dl>
             <a class="button button-primary" href="mailto:youhe81@naver.com?subject=해피벨 어린이집 입소 상담 문의">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 6h16v12H4z" />
-                <path d="m4 7 8 6 8-6" />
-              </svg>
               상담 문의 보내기
             </a>
           </div>
@@ -239,9 +259,9 @@
       </section>
     </main>
 
-    <footer class="daycare-footer">
-      <div class="section-shell footer-layout">
-        <p>해피벨 어린이집. 아이의 오늘을 따뜻하게 살피는 공간.</p>
+    <footer class="site-footer">
+      <div class="section-shell footer-inner">
+        <p>해피벨 어린이집. 오늘도 작은 마음을 다정하게 살펴요.</p>
         <a href="index.html">포트폴리오로 돌아가기</a>
       </div>
     </footer>
