@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="숲속 캠핑장 Forest Stay Camp 소개와 예약 문의 페이지입니다."
+    />
+    <meta name="theme-color" content="#173b2b" />
+    <title>Forest Stay Camp | 감각적인 숲속 캠핑</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="camping.css" />
+  </head>
+  <body>
+    <header class="camp-header">
+      <nav class="camp-nav" aria-label="캠핑장 메뉴">
+        <a class="camp-brand" href="#top" aria-label="Forest Stay Camp 홈">
+          <span class="brand-symbol" aria-hidden="true">FS</span>
+          <span>Forest Stay Camp</span>
+        </a>
+        <div class="camp-links">
+          <a href="#about">소개</a>
+          <a href="#sites">사이트</a>
+          <a href="#gallery">사진</a>
+          <a href="#booking">예약</a>
+        </div>
+        <a class="nav-cta" href="#booking">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8 2v4M16 2v4M3 9h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" />
+          </svg>
+          예약하기
+        </a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-content">
+          <p class="eyebrow">Seoul 근교 프라이빗 캠핑</p>
+          <h1 id="heroTitle">숲의 리듬에 맞춰 쉬어가는 하루</h1>
+          <p class="hero-copy">
+            Forest Stay Camp는 조용한 숲길, 넓은 데크, 정돈된 편의시설을 갖춘
+            소규모 캠핑장입니다. 감각적인 분위기와 실용적인 예약 흐름을 함께 담았습니다.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#booking">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
+              예약 가능일 보기
+            </a>
+            <a class="button button-secondary" href="#gallery">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 5h16v14H4z" />
+                <path d="m4 15 4-4 4 4 3-3 5 5" />
+              </svg>
+              사진 둘러보기
+            </a>
+          </div>
+        </div>
+
+        <div class="booking-strip" aria-label="빠른 예약 정보">
+          <div>
+            <span>체크인</span>
+            <strong>15:00</strong>
+          </div>
+          <div>
+            <span>체크아웃</span>
+            <strong>11:00</strong>
+          </div>
+          <div>
+            <span>운영 사이트</span>
+            <strong>12면</strong>
+          </div>
+          <a href="#booking">예약 문의</a>
+        </div>
+      </section>
+
+      <section class="section-shell intro-section" id="about" aria-labelledby="aboutTitle">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="aboutTitle">머무는 시간이 편안하도록 설계한 캠핑장</h2>
+        </div>
+        <div class="intro-grid">
+          <p>
+            사이트 간 간격을 넓게 두고, 밤에는 최소한의 조명만 남겨 숲의 분위기를 살렸습니다.
+            초보 캠퍼도 쉽게 이용할 수 있도록 전기, 개수대, 샤워실, 장작 판매 동선을 단순하게 정리했습니다.
+          </p>
+          <ul class="check-list" aria-label="캠핑장 특징">
+            <li>차량 진입이 쉬운 데크형 사이트</li>
+            <li>가족, 커플, 솔로 캠핑에 맞춘 사이트 구성</li>
+            <li>예약 문의 후 일정 확인과 안내 메시지 발송</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="site-band" id="sites" aria-labelledby="sitesTitle">
+        <div class="section-shell">
+          <div class="section-heading compact">
+            <p class="eyebrow">Stay Options</p>
+            <h2 id="sitesTitle">취향에 맞게 고르는 사이트</h2>
+          </div>
+          <div class="site-grid">
+            <article class="site-card">
+              <img
+                src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=900&q=80"
+                alt="숲속에 설치된 텐트"
+              />
+              <div>
+                <p class="card-kicker">Forest Deck</p>
+                <h3>숲 데크 사이트</h3>
+                <p>나무 그늘이 깊은 기본 사이트입니다. 전기 사용과 차량 근접 주차가 가능합니다.</p>
+                <strong>1박 65,000원부터</strong>
+              </div>
+            </article>
+            <article class="site-card">
+              <img
+                src="https://images.unsplash.com/photo-1504851149312-7a075b496cc7?auto=format&fit=crop&w=900&q=80"
+                alt="노을이 보이는 캠핑 텐트"
+              />
+              <div>
+                <p class="card-kicker">River View</p>
+                <h3>리버뷰 사이트</h3>
+                <p>물소리가 가까운 조용한 구역입니다. 커플 캠핑과 차분한 휴식에 어울립니다.</p>
+                <strong>1박 78,000원부터</strong>
+              </div>
+            </article>
+            <article class="site-card">
+              <img
+                src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&w=900&q=80"
+                alt="캠핑 테이블과 장비가 놓인 사이트"
+              />
+              <div>
+                <p class="card-kicker">Ready Camp</p>
+                <h3>장비 대여 패키지</h3>
+                <p>텐트, 테이블, 체어를 함께 준비해 드리는 초보 캠퍼용 패키지입니다.</p>
+                <strong>1박 118,000원부터</strong>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell gallery-section" id="gallery" aria-labelledby="galleryTitle">
+        <div class="section-heading compact">
+          <p class="eyebrow">Gallery</p>
+          <h2 id="galleryTitle">숲, 불빛, 그리고 아침 공기</h2>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo-large">
+            <img
+              src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1400&q=80"
+              alt="밤하늘 아래 밝게 빛나는 캠핑 텐트"
+            />
+            <figcaption>해가 지면 사이트마다 작은 불빛만 남습니다.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+              alt="산과 숲이 보이는 자연 풍경"
+            />
+            <figcaption>아침 산책로와 넓은 하늘</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1487730116645-74489c95b41b?auto=format&fit=crop&w=900&q=80"
+              alt="숲 사이로 난 길"
+            />
+            <figcaption>사이트로 이어지는 숲길</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="amenity-band" aria-labelledby="amenityTitle">
+        <div class="section-shell amenity-layout">
+          <div>
+            <p class="eyebrow">Amenities</p>
+            <h2 id="amenityTitle">필요한 것은 가까이에, 불편한 것은 줄였습니다</h2>
+          </div>
+          <div class="amenity-grid">
+            <div>
+              <strong>전기 사용</strong>
+              <span>사이트별 콘센트 제공</span>
+            </div>
+            <div>
+              <strong>샤워실</strong>
+              <span>온수 이용 가능</span>
+            </div>
+            <div>
+              <strong>장작 판매</strong>
+              <span>관리동에서 구매</span>
+            </div>
+            <div>
+              <strong>분리수거</strong>
+              <span>퇴실 동선에 배치</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-section" id="booking" aria-labelledby="bookingTitle">
+        <div class="section-shell booking-layout">
+          <div class="booking-copy">
+            <p class="eyebrow">Reservation</p>
+            <h2 id="bookingTitle">원하는 날짜를 남겨주시면 예약 가능 여부를 확인해 드립니다</h2>
+            <p>
+              이 페이지는 정적 사이트라 실시간 결제까지 처리하지 않습니다. 대신 예약 문의를 보내면
+              일정 확인 후 안내 메일로 답장하는 흐름으로 연결됩니다.
+            </p>
+          </div>
+          <form
+            class="booking-form"
+            action="mailto:youhe81@naver.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label>
+              이름
+              <input name="name" type="text" placeholder="예약자 이름" required />
+            </label>
+            <label>
+              연락처
+              <input name="phone" type="tel" placeholder="010-0000-0000" required />
+            </label>
+            <label>
+              체크인
+              <input name="check-in" type="date" required />
+            </label>
+            <label>
+              인원
+              <select name="guests" required>
+                <option value="">선택</option>
+                <option>1명</option>
+                <option>2명</option>
+                <option>3-4명</option>
+                <option>5명 이상</option>
+              </select>
+            </label>
+            <label class="full-field">
+              사이트 유형
+              <select name="site-type" required>
+                <option value="">선택</option>
+                <option>숲 데크 사이트</option>
+                <option>리버뷰 사이트</option>
+                <option>장비 대여 패키지</option>
+              </select>
+            </label>
+            <label class="full-field">
+              요청사항
+              <textarea name="message" rows="4" placeholder="희망 날짜, 장비 대여 여부, 문의 내용을 적어주세요."></textarea>
+            </label>
+            <button class="button button-primary full-field" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M22 2 11 13" />
+                <path d="m22 2-7 20-4-9-9-4Z" />
+              </svg>
+              예약 문의 보내기
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="camp-footer">
+      <div class="section-shell footer-layout">
+        <p>Forest Stay Camp. Designed for calm weekends.</p>
+        <a href="index.html">포트폴리오로 돌아가기</a>
+      </div>
+    </footer>
+  </body>
+</html>
