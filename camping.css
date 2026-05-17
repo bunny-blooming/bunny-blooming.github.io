@@ -1,13 +1,13 @@
 :root {
-  --pine: #0e3f39;
-  --moss: #36c4a3;
-  --sky: #dff8f0;
-  --clay: #159a84;
-  --sun: #a8f0dd;
-  --paper: #f6fffb;
-  --stone: #d8eee6;
-  --ink: #122722;
-  --muted: #61746d;
+  --pine: #173b2b;
+  --moss: #5d6f3b;
+  --sky: #d9ece8;
+  --clay: #c95f45;
+  --sun: #f2c36b;
+  --paper: #fbfaf4;
+  --stone: #e8e5da;
+  --ink: #16201a;
+  --muted: #657069;
   --white: #ffffff;
   --shadow: 0 24px 70px rgba(22, 32, 26, 0.16);
 }
